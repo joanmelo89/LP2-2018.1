@@ -25,7 +25,7 @@ public class Exemplo2 {
         double num3 = Double.parseDouble(n3);
         double res = (num1 + num2 + num3)/3;
         
-        if(res > 7){
+        if(res >= 7){
         String msg;
         msg = "Aprovado | Média: "+res;
         JOptionPane.showMessageDialog(null, msg);
